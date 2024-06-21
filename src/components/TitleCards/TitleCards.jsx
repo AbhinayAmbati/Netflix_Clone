@@ -16,7 +16,9 @@ const TitleCards = ({title, category}) => {
     method: 'GET',
     headers: {
       accept: 'application/json',
-      Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJjMzJmMGEwMzUzZTk5YzI2ODdkNzMzMmM3NjgyNjE1OCIsInN1YiI6IjY2NzMwZjViNDliODgzNWMwNzU5ZTBkMiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.E9pur3jhU-227BFZHQp7KNvUI-khUWuKmwm--298Mqc'
+      Authorization: '
+        // add api key from data base
+        '
     }
   };
   
